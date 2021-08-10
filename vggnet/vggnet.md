@@ -2,7 +2,7 @@
 
 Karen Simonyan & Andrew Zisserman, **ICLR 2015**
 
-## Summary
+## Introduction
 
 This paper investigates the effect of increasing depth of a convolutional network on the ImageNet Challenge- $2014$. Instead of using less number of large-sized filters, it suggests reducing the size of filters and increasing the depth of the network, thus achieving better performance on the image classification and segmentation tracks of the ImageNet Challenge. 
 
