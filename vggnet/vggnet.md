@@ -15,7 +15,7 @@ The key idea behind this paper is that a deeper convolutional network having sma
 The architecture of the VGG16 network (with $16$ deep layers) is shown in the diagram below. 
 
 
-<img src='VGG16.png' width='600'>
+<img src='vgg16.png' width='600'>
 
 
 ## Important Observations
