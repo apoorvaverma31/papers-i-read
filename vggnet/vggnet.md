@@ -4,15 +4,15 @@ Karen Simonyan & Andrew Zisserman, **ICLR 2015**
 
 ## Introduction
 
-This paper investigates the effect of increasing depth of a convolutional network on the ImageNet Challenge- $2014$. Instead of using less number of large-sized filters, it suggests reducing the size of filters and increasing the depth of the network, thus achieving better performance on the image classification and segmentation tracks of the ImageNet Challenge. 
+This paper investigates the effect of increasing depth of a convolutional network on the ImageNet Challenge- `2014`. Instead of using less number of large-sized filters, it suggests reducing the size of filters and increasing the depth of the network, thus achieving better performance on the image classification and segmentation tracks of the ImageNet Challenge. 
 
 ## Key Idea
 
-The key idea behind this paper is that a deeper convolutional network having smaller filters has nearly the same number of weights as that of a shallow network with larger filters and receptive fields, while helping the network fit better to the training data. This can be illustrated better by considering an example of a stack of three $3 \times 3$ filters with stride $1$. We observe that the effective receptive field of this stack of three $3 \times 3$ filters is $7 \times 7$. Thus, we have incorporated $3$ non-linearities instead of $1$ (in case of a single $7 \times 7$ layer), while simultaneously decreasing the number of parameters required from $7^2 = 49$ per channel to $3 \times 3^2 = 27$ per channel. 
+The key idea behind this paper is that a deeper convolutional network having smaller filters has nearly the same number of weights as that of a shallow network with larger filters and receptive fields, while helping the network fit better to the training data. This can be illustrated better by considering an example of a stack of three `3 x 3` filters with stride $1$. We observe that the effective receptive field of this stack of three `3 x 3` filters is `7 x 7`. Thus, we have incorporated `3` non-linearities instead of $1$ (in case of a single `7 x 7` layer), while simultaneously decreasing the number of parameters required from `7 x 7 = 49` per channel to `3 x 3 x 3 = 27` per channel. 
 
 ## Architecture 
 
-The architecture of the VGG16 network (with $16$ deep layers) is shown in the diagram below. 
+The architecture of the VGG16 network (with `16` deep layers) is shown in the diagram below. 
 
 
 <img src='vgg16.png' width='600'>
